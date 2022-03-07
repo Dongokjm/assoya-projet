@@ -1,0 +1,12 @@
+const String BASE_URL = "https://assoyaapi.corijomarket.ci/api/";
+const String LOGIN_URL = "${BASE_URL}login";
+const String REGISTER_URL = "${BASE_URL}register";
+const String USER_UPDATE_URL = "${BASE_URL}user/update";
+const String VERIFY_ACCOUNT_URL = "${BASE_URL}verify_account";
+const String USER_PROFILE_URL = "${BASE_URL}user/index";
+const String ADD_RIDE_URL = "${BASE_URL}user/trajet/store";
+const String USER_VEHICULE_URL = "${BASE_URL}user/vehicule/all";
+const String ADD_VEHICULE_URL = "${BASE_URL}user/vehicule/store";
+const String UPDATE_VEHICULE_URL = "${BASE_URL}user/vehicule/update/{id}";
+const String DELETE_VEHICULE_URL = "${BASE_URL}user/vehicule/delete/{id}";
+const String RIDE_URL = "${BASE_URL}trajets";
